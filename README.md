@@ -22,12 +22,12 @@ B.Tech Electronics & Telecommunication student | Gen AI Intern @ Ease My AI | Bu
 
 | Project | Description |
 |---|---|
-| [LLM-Powered Document Q&A (RAG)](#) | Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers |
-| [LoRA Fine-Tuning Pipeline](#) | Parameter-efficient fine-tuning of an open-weight LLM for structured document extraction, with 4-bit quantization |
-| [TaskFlow](#) | Full-stack project management platform — React, FastAPI, PostgreSQL, JWT auth, Docker |
-| [GuardianPod](#) | IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking, and geofence alerts |
+| [LLM-Powered Document Q&A (RAG)](https://github.com/skhicha/ds-portfolio/tree/main/02_RAG_QA_Tool) | Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers |
+| [LoRA Fine-Tuning Pipeline](https://github.com/skhicha/ds-portfolio/tree/main/05_lora_document_extraction) | Parameter-efficient fine-tuning of an open-weight LLM for structured document extraction, with 4-bit quantization |
+| [Loan Risk & ECL Dashboard](https://github.com/skhicha/ds-portfolio/tree/main/07_loan_risk_ecl_dashboard) | Credit risk analytics: delinquency buckets, roll-rate matrices, and Expected Credit Loss under an IFRS 9-style framework |
+| [GuardianPod](https://github.com/skhicha/apps/tree/main/guardianpod) | IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking, and geofence alerts |
 
-*(Replace the `#` links above with your actual repo URLs once pinned.)*
+See the full data science portfolio → [ds-portfolio](https://github.com/skhicha/ds-portfolio) (9 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, optimization)
 
 ---
 
