@@ -33,7 +33,9 @@ def gh(path, token_required=False):
 
 def gh_raw(owner, repo, path):
     url = f"https://raw.githubusercontent.com/{owner}/{repo}/HEAD/{path}"
-    req = urllib.request.Request(url)
+    req = urllib.request.Request(url, headers={
+        **({"Authorization": f"Bearer {TOKEN}"} if TOKEN else {})
+    })
     try:
         with urllib.request.urlopen(req) as r:
             return r.read().decode(errors="ignore")
@@ -146,6 +148,42 @@ def scan_repo(repo):
     found.discard(None)
     return found
 
+def extract_readme_description(owner, repo_name):
+    """Pull a short description from the repo's own README: the first
+    non-empty line that isn't a heading, badge/image line, or horizontal
+    rule. Markdown formatting is stripped. Returns None if nothing usable
+    is found."""
+    content = gh_raw(owner, repo_name, "README.md")
+    if not content:
+        return None
+    for line in content.splitlines():
+        line = line.strip()
+        if not line:
+            continue
+        if line.startswith("#"):          # heading
+            continue
+        if line.startswith(("<", "!", "[![", "---", "===")):  # badges/images/rules
+            continue
+        # strip basic markdown emphasis/links for a clean snippet
+        clean = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)
+        clean = re.sub(r"[*_`#]", "", clean).strip()
+        if len(clean) < 10:                # too short to be a real description
+            continue
+        return (clean[:180] + "…") if len(clean) > 180 else clean
+    return None
+
+def synthesize_description(skills):
+    """Last-resort fallback: build a plain description from detected tech
+    when the repo has neither a GitHub description nor a usable README line."""
+    if not skills:
+        return "Code repository."
+    labels = [BADGES[k][0].replace("--", "-") for k in sorted(skills) if k in BADGES]
+    if not labels:
+        return "Code repository."
+    shown = labels[:4]
+    rest = f" and {len(labels) - 4} more" if len(labels) > 4 else ""
+    return f"Project using {', '.join(shown)}{rest}."
+
 def render_badges(skill_keys):
     lines = []
     row = []
@@ -162,18 +200,28 @@ def render_badges(skill_keys):
     return "\n<br/>\n".join(lines)
 
 def main():
-    repos = gh(f"/users/{USERNAME}/repos?per_page=100&type=public") or []
+    # /user/repos (authenticated) returns both public and private repos
+    # the token's owner can see; falls back to public-only if no token is set.
+    if TOKEN:
+        repos = gh("/user/repos?per_page=100&affiliation=owner&visibility=all", token_required=True) or []
+    else:
+        repos = gh(f"/users/{USERNAME}/repos?per_page=100&type=public") or []
     repos = [r for r in repos if not r.get("fork")]
 
     all_skills = set()
     featured = []
     for r in repos:
         skills = scan_repo(r)
-        all_skills |= skills
-        if r["name"] != "skhicha":
-            featured.append({
-                "name": r["name"],
-                "description": r.get("description") or "",
+        all_skills |= skills  # private repos contribute to skill badges...
+        if r["name"] != "skhicha" and not r.get("private"):
+            desc = r.get("description")
+            if not desc:
+                desc = extract_readme_description(USERNAME, r["name"])
+            if not desc:
+                desc = synthesize_description(skills)
+            featured.append({               # ...but only public repos are
+                "name": r["name"],           # listed/linked in the public
+                "description": desc,         # Projects table.
                 "url": r["html_url"],
             })
 
