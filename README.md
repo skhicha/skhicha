@@ -24,10 +24,10 @@
 
 | Repo | What it is |
 |---|---|
-| [apps](https://github.com/skhicha/apps) |  |
-| [DJS-Antariksh](https://github.com/skhicha/DJS-Antariksh) |  |
+| [apps](https://github.com/skhicha/apps) | Cross-platform Flutter apps: IoT safety (BLE/ESP32), wildlife tracking, and waste monitoring |
+| [DJS-Antariksh](https://github.com/skhicha/DJS-Antariksh) | ROS 2 robotics packages and Python/data exercises from DJS Antariksh robotics team |
 | [ds-portfolio](https://github.com/skhicha/ds-portfolio) | End-to-end data science and ML projects — NLP, RAG, House Price Prediction, Time Series Forecasting |
-| [Primetrade](https://github.com/skhicha/Primetrade) |  |
+| [Primetrade](https://github.com/skhicha/Primetrade) | React dashboard for trading sentiment visualization with CSV import and PDF export |
 
 ---
 
