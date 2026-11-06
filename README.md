@@ -1,7 +1,11 @@
-<h1 align="center">Hi there, I'm Shubham 👋</h1>
+<h1 align="center">Hi, I'm Shubham 👋</h1>
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=skhicha&style=flat-square&color=blueviolet" alt="Profile views" />
+</p>
+
+<p align="center">
+Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning to cross-platform apps.
 </p>
 
 ---
@@ -9,33 +13,87 @@
 ### 🛠️ When I build, I rely on
 
 <p align="left">
-<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" /> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /> <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" /> <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" /> <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+<img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
 <br/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" /> <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" /> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge&logoColor=black" />
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
 <br/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/Recharts-22B5BF?style=for-the-badge&logo=chartdotjs&logoColor=white" /> <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+<img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 <br/>
-<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" /> <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
 </p>
 
 ---
 
-### 📂 Projects
+### 📌 Featured Projects
 
-| Repo | What it is |
-|---|---|
-| [apps](https://github.com/skhicha/apps) | Cross-platform Flutter apps: IoT safety (BLE/ESP32), wildlife tracking, and waste monitoring |
-| [DJS-Antariksh](https://github.com/skhicha/DJS-Antariksh) | ROS 2 robotics packages and Python/data exercises from DJS Antariksh robotics team |
-| [ds-portfolio](https://github.com/skhicha/ds-portfolio) | End-to-end data science and ML projects — NLP, RAG, House Price Prediction, Time Series Forecasting |
-| [Primetrade](https://github.com/skhicha/Primetrade) | React dashboard for trading sentiment visualization with CSV import and PDF export |
+<table>
+<tr>
+<td width="50%">
+
+**🤖 [LLM-Powered Document Q&A (RAG)](https://github.com/skhicha/ds-portfolio/tree/main/02_RAG_QA_Tool)**
+Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers.
+`Python` `LangChain` `Streamlit`
+
+</td>
+<td width="50%">
+
+**🔧 [LoRA Fine-Tuning Pipeline](https://github.com/skhicha/ds-portfolio/tree/main/05_lora_document_extraction)**
+Parameter-efficient fine-tuning of an open-weight LLM for structured document extraction, with 4-bit quantization.
+`PyTorch` `PEFT` `Transformers`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**🏦 [Loan Risk & ECL Dashboard](https://github.com/skhicha/ds-portfolio/tree/main/07_loan_risk_ecl_dashboard)**
+Credit risk analytics: delinquency buckets, roll-rate matrices, and Expected Credit Loss under an IFRS 9-style framework.
+`Python` `SQL` `Scikit-learn`
+
+</td>
+<td width="50%">
+
+**🛡️ [GuardianPod](https://github.com/skhicha/apps/tree/main/guardianpod)**
+IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking, and geofence alerts.
+`Flutter` `Firebase` `BLE`
+
+</td>
+</tr>
+</table>
+
+<p align="center">
+📂 Full data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (9 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, optimization)
+&nbsp;|&nbsp;
+📱 Mobile apps → <a href="https://github.com/skhicha/apps"><b>apps</b></a> (GuardianPod, SafariSync, Smart Waste Management)
+</p>
 
 ---
 
 ### 📊 GitHub Stats
 
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=skhicha&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api?username=skhicha&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skhicha&layout=compact&theme=tokyonight&hide_border=true" height="165" />
 </p>
 
-<p align="center"><sub>This README updates itself automatically — see <code>.github/workflows/update-readme.yml</code></sub></p>
+---
+
+<p align="center">
+<a href="https://github.com/skhicha"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
