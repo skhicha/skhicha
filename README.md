@@ -2,8 +2,6 @@
 
 <p align="center">
 <img src="https://komarev.com/ghpvc/?username=skhicha&style=flat-square&color=blueviolet" alt="Profile views" />
-<img src="https://img.shields.io/github/followers/skhicha?style=flat-square&color=blue&label=Followers" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fskhicha&label=Public%20Repos&query=%24.public_repos&color=informational&style=flat-square" />
 </p>
 
 <p align="center">
@@ -83,4 +81,20 @@ IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking,
 📂 Full data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (9 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, optimization)
 &nbsp;|&nbsp;
 📱 Mobile apps → <a href="https://github.com/skhicha/apps"><b>apps</b></a> (GuardianPod, SafariSync, Smart Waste Management)
+</p>
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=skhicha&show_icons=true&theme=tokyonight&hide_border=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=skhicha&layout=compact&theme=tokyonight&hide_border=true" height="165" />
+</p>
+
+---
+
+<p align="center">
+<a href="mailto:khichashubham@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://linkedin.com/in/shubham-khicha"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
 </p>
