@@ -69,6 +69,22 @@ Credit risk analytics: delinquency buckets, roll-rate matrices, and Expected Cre
 </td>
 <td width="50%">
 
+**💊 [Pharma Customer Segmentation](https://github.com/skhicha/ds-portfolio/tree/main/10_pharma_customer_segmentation)**
+K-Means + PCA segmentation on physician prescription data with a decile-based targeting model validated via silhouette score.
+`Python` `Scikit-learn` `PCA`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**📈 [Marketing Mix Modeling](https://github.com/skhicha/ds-portfolio/tree/main/08_marketing_mix_modeling)**
+Ridge-regression MMM with adstock/saturation transforms and a live budget scenario simulator (R² ≈ 0.92).
+`Python` `Statsmodels` `Streamlit`
+
+</td>
+<td width="50%">
+
 **🛡️ [GuardianPod](https://github.com/skhicha/apps/tree/main/guardianpod)**
 IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking, and geofence alerts.
 `Flutter` `Firebase` `BLE`
@@ -78,7 +94,7 @@ IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking,
 </table>
 
 <p align="center">
-📂 Full data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (9 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, optimization)
+📂 Full data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (10 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, customer segmentation, optimization)
 &nbsp;|&nbsp;
 📱 Mobile apps → <a href="https://github.com/skhicha/apps"><b>apps</b></a> (GuardianPod, SafariSync, Smart Waste Management)
 </p>
