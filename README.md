@@ -18,24 +18,28 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
 <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
 <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <br/>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
 <img src="https://img.shields.io/badge/🤗%20HuggingFace-FFD21E?style=for-the-badge&logoColor=black" />
 <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
 <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
 <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
 <br/>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
 <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
 <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
 <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 <br/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
 <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
+<img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
 </p>
 
 ---
@@ -46,11 +50,20 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <tr>
 <td width="50%">
 
+**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)**
+Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
+`FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
+
+</td>
+<td width="50%">
+
 **🤖 [LLM-Powered Document Q&A (RAG)](https://github.com/skhicha/ds-portfolio/tree/main/02_RAG_QA_Tool)**
 Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers.
 `Python` `LangChain` `Streamlit`
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🔧 [LoRA Fine-Tuning Pipeline](https://github.com/skhicha/ds-portfolio/tree/main/05_lora_document_extraction)**
@@ -58,8 +71,6 @@ Parameter-efficient fine-tuning of an open-weight LLM for structured document ex
 `PyTorch` `PEFT` `Transformers`
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **🏦 [Loan Risk & ECL Dashboard](https://github.com/skhicha/ds-portfolio/tree/main/07_loan_risk_ecl_dashboard)**
@@ -67,6 +78,8 @@ Credit risk analytics: delinquency buckets, roll-rate matrices, and Expected Cre
 `Python` `SQL` `Scikit-learn`
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **💊 [Pharma Customer Segmentation](https://github.com/skhicha/ds-portfolio/tree/main/10_pharma_customer_segmentation)**
@@ -74,8 +87,6 @@ K-Means + PCA segmentation on physician prescription data with a decile-based ta
 `Python` `Scikit-learn` `PCA`
 
 </td>
-</tr>
-<tr>
 <td width="50%">
 
 **📈 [Marketing Mix Modeling](https://github.com/skhicha/ds-portfolio/tree/main/08_marketing_mix_modeling)**
@@ -83,6 +94,8 @@ Ridge-regression MMM with adstock/saturation transforms and a live budget scenar
 `Python` `Statsmodels` `Streamlit`
 
 </td>
+</tr>
+<tr>
 <td width="50%">
 
 **🛡️ [GuardianPod](https://github.com/skhicha/apps/tree/main/guardianpod)**
