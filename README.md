@@ -98,6 +98,22 @@ Ridge-regression MMM with adstock/saturation transforms and a live budget scenar
 <tr>
 <td width="50%">
 
+**📋 [TaskFlow](https://github.com/skhicha/taskflow)**
+Full-stack project management platform: repository-pattern FastAPI backend, JWT auth with RBAC, normalized PostgreSQL schema, Dockerized stack.
+`React` `FastAPI` `PostgreSQL` `Docker`
+
+</td>
+<td width="50%">
+
+**🧮 [DSA Visualizers](https://github.com/skhicha/dsa-visualizers)**
+From-scratch graph algorithms (BFS/DFS/Dijkstra/Union-Find) and an interactive A* vs. Dijkstra pathfinding visualiser, benchmarked for real node-visit savings.
+`Python` `NetworkX` `Pygame`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
 **🛡️ [GuardianPod](https://github.com/skhicha/apps/tree/main/guardianpod)**
 IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking, and geofence alerts.
 `Flutter` `Firebase` `BLE`
