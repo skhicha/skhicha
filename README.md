@@ -40,6 +40,8 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
 <img src="https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white" />
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+<img src="https://img.shields.io/badge/NetworkX-013243?style=for-the-badge&logoColor=white" />
+<img src="https://img.shields.io/badge/Pygame-121212?style=for-the-badge&logo=python&logoColor=white" />
 </p>
 
 ---
