@@ -114,18 +114,6 @@ IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking,
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-<img src="https://img.shields.io/github/followers/skhicha?style=for-the-badge&color=blue&label=Followers" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fskhicha&label=Public%20Repos&query=%24.public_repos&color=informational&style=for-the-badge" />
-<br/><br/>
-<img src="https://img.shields.io/github/stars/skhicha/ds-portfolio?style=for-the-badge&color=yellow&label=ds-portfolio%20Stars" />
-<img src="https://img.shields.io/github/stars/skhicha/apps?style=for-the-badge&color=yellow&label=apps%20Stars" />
-</p>
-
----
-
 <p align="center">
 <a href="mailto:khichashubham@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://linkedin.com/in/shubham-khicha"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
