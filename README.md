@@ -52,16 +52,16 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <tr>
 <td width="50%">
 
-**🌊 [SonaVault: Acoustic Intelligence](https://github.com/skhicha/sonavault)**
-Sovereign Acoustic Intelligence Platform on NVIDIA DGX Spark GB10: hydrophone soundscapes, Whisper v3 Turbo ASR, pyannote diarization, AST acoustic event tagging, CLAP embeddings, Qdrant hybrid RRF, PREMIS provenance ledger, and vLLM Qwen3-30B NVFP4 cited briefings.
-`PyTorch` `CUDA 13` `vLLM` `Qdrant` `FastAPI` `React/TS`
+**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)** &nbsp;·&nbsp; [📂 multimodal-ai](https://github.com/skhicha/multimodal-ai)
+Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
+`FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
 
 </td>
 <td width="50%">
 
-**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)**
-Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
-`FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
+**🤖 [LLM-Powered Document Q&A (RAG)](https://github.com/skhicha/ds-portfolio/tree/main/02_RAG_QA_Tool)**
+Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers.
+`Python` `LangChain` `Streamlit`
 
 </td>
 </tr>
