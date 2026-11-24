@@ -52,7 +52,7 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <tr>
 <td width="50%">
 
-**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)** &nbsp;·&nbsp; [📂 multimodal-ai](https://github.com/skhicha/multimodal-ai)
+**📸 [MemoryLens AI](https://github.com/skhicha/multimodal-ai/tree/main/memorylens-ai-vault)** &nbsp;·&nbsp; [📂 multimodal-ai](https://github.com/skhicha/multimodal-ai)
 Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
 `FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
 
@@ -125,7 +125,7 @@ IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking,
 </table>
 
 <p align="center">
-🧠 Multimodal AI portfolio → <a href="https://github.com/skhicha/multimodal-ai"><b>multimodal-ai</b></a> (SonaVault, MemoryLens AI)
+🧠 Multimodal AI portfolio → <a href="https://github.com/skhicha/multimodal-ai"><b>multimodal-ai</b></a> (MemoryLens AI, SonaVault <i>[In Development]</i>)
 &nbsp;|&nbsp;
 📂 Data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (10 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, customer segmentation, optimization)
 &nbsp;|&nbsp;
