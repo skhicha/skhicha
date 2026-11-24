@@ -52,16 +52,16 @@ Building AI agents, RAG pipelines, and full-stack tools — from LLM fine-tuning
 <tr>
 <td width="50%">
 
-**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)**
-Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
-`FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
+**🌊 [SonaVault: Acoustic Intelligence](https://github.com/skhicha/sonavault)**
+Sovereign Acoustic Intelligence Platform on NVIDIA DGX Spark GB10: hydrophone soundscapes, Whisper v3 Turbo ASR, pyannote diarization, AST acoustic event tagging, CLAP embeddings, Qdrant hybrid RRF, PREMIS provenance ledger, and vLLM Qwen3-30B NVFP4 cited briefings.
+`PyTorch` `CUDA 13` `vLLM` `Qdrant` `FastAPI` `React/TS`
 
 </td>
 <td width="50%">
 
-**🤖 [LLM-Powered Document Q&A (RAG)](https://github.com/skhicha/ds-portfolio/tree/main/02_RAG_QA_Tool)**
-Retrieval-Augmented Generation pipeline using LangChain + OpenAI/Gemini APIs for context-aware, cited document answers.
-`Python` `LangChain` `Streamlit`
+**📸 [MemoryLens AI](https://github.com/skhicha/memorylens-ai-vault)**
+Full-stack personal media vault: face detection, speech transcription, BLIP visual scene captioning, GPS/EXIF, smart albums, and a RAG "Ask AI" chat with citations — backed by database-driven RBAC (admin/editor/viewer), revocable sessions with live cross-device logout, email OTP, and authenticator-app 2FA.
+`FastAPI` `React/TS` `SQLite+FTS5` `RBAC` `OpenCV` `Whisper`
 
 </td>
 </tr>
@@ -125,7 +125,9 @@ IoT child-safety Flutter app with BLE/ESP32 integration, real-time GPS tracking,
 </table>
 
 <p align="center">
-📂 Full data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (10 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, customer segmentation, optimization)
+🧠 Multimodal AI portfolio → <a href="https://github.com/skhicha/multimodal-ai"><b>multimodal-ai</b></a> (SonaVault, MemoryLens AI)
+&nbsp;|&nbsp;
+📂 Data science portfolio → <a href="https://github.com/skhicha/ds-portfolio"><b>ds-portfolio</b></a> (10 projects: NLP, RAG, LLM fine-tuning, risk analytics, marketing mix modeling, customer segmentation, optimization)
 &nbsp;|&nbsp;
 📱 Mobile apps → <a href="https://github.com/skhicha/apps"><b>apps</b></a> (GuardianPod, SafariSync, Smart Waste Management)
 </p>
