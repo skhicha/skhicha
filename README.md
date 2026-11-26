@@ -47,6 +47,8 @@ Building AI agents, multimodal sensory intelligence, RAG pipelines, and full-sta
 <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
 <img src="https://img.shields.io/badge/NetworkX-013243?style=for-the-badge&logoColor=white" />
 <img src="https://img.shields.io/badge/Pygame-121212?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white" />
+<img src="https://img.shields.io/badge/Alembic-6BA539?style=for-the-badge&logoColor=white" />
 </p>
 
 ---
@@ -58,8 +60,8 @@ Building AI agents, multimodal sensory intelligence, RAG pipelines, and full-sta
 <td width="50%" valign="top">
 
 **🌊 [SonaVault: Acoustic Intelligence](https://github.com/skhicha/multimodal-ai/tree/main/SonaVault)** &nbsp;·&nbsp; [📂 multimodal-ai](https://github.com/skhicha/multimodal-ai)  
-Sovereign multilingual acoustic & bioacoustic platform on NVIDIA DGX Spark GB10 (128GB unified LPDDR5X memory): 7-stage resumable ingestion DAG, Whisper v3 Turbo ASR, pyannote diarization, AST tagging, CLAP embeddings, Qdrant hybrid RRF search (`k=60`), vLLM Qwen3-30B NVFP4 streaming briefings with cited grounding, Host Memory Watchdog daemon, and 9-feature React/TS SPA.  
-`vLLM` `Qdrant RRF` `NVIDIA GB10` `FastAPI` `React 18` `DeepEval`
+Sovereign multilingual acoustic & bioacoustic platform on NVIDIA DGX Spark GB10 (128GB unified LPDDR5X memory): 7-stage resumable ingestion DAG, Whisper v3 Turbo ASR, pyannote diarization, AST tagging, CLAP embeddings, Qdrant hybrid RRF search (`k=60`), vLLM Qwen3-30B NVFP4 streaming briefings with cited grounding, Host Memory Watchdog daemon, and 9-feature React/TS SPA. Verified end-to-end on real GB10 hardware — 121/121 tests, clean static analysis, and a full Playwright click-through with zero console errors.  
+`vLLM` `Qdrant RRF` `NVIDIA GB10` `FastAPI` `React 18` `DeepEval` `Playwright`
 
 </td>
 <td width="50%" valign="top">
